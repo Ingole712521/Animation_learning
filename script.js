@@ -49,4 +49,4 @@ tl.to("#box2", {
   backgroundColor: "red",
 });
 
-
+// Day 2 Learning of Scroll Trigger
