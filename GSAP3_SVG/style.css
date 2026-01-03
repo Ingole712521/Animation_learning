@@ -12,6 +12,7 @@ body {
   padding: auto;
   height: 100%;
   width: 100%;
+  /* item : center */
 }
 
 body {
@@ -19,7 +20,11 @@ body {
 }
 
 #string {
+  display: flex;
   height: 200px;
   width: 100%;
+  font-weight: bold;
   background-color: yellowgreen;
+  align-items: center;
+  justify-content: center;
 }
