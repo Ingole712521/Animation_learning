@@ -7,6 +7,10 @@ function breakTest() {
 
   var halfValue = Math.floor(split1Text.length / 2);
   console.log(halfValue);
+
+
+
+  
   var clutter = "";
 
   split1Text.forEach(function (e, idx) {
