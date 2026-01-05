@@ -28,12 +28,9 @@
 //   },
 // });
 
+// Q1 Scroll Story Page ,  Each Section Pins , text fade in , Background color changes
 
-
-
-// Q1 Scroll Story Page ,  Each Section Pins , text fade in , Background color changes 
-
-// Scroll to Trigger 
+// Scroll to Trigger
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.utils.toArray(".panel").forEach((panel) => {
@@ -60,7 +57,7 @@ gsap.utils.toArray(".panel").forEach((panel) => {
       duration: 2,
     })
     .to(h1, {
-      opacity: 1,    
+      opacity: 1,
       y: 50,
       duration: 2,
     });
